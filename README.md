@@ -21,3 +21,6 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
 
 # ex-5
   Regularized Linear Regression and Bias/Variance (Learning Curves)
+  
+# ex-6
+  Support Vector Machines & Spam Classifier
