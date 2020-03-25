@@ -7,20 +7,20 @@ All the codes are written in MATLAB. MATLAB Is usually used for prototyping mach
 
 I have tried to avoid loops as much as possible and vectorized almost every operation in these assignments. Use this as a guideline to how to write a simple one-line code for carrying out calculations which take a lot of indices tracking when done through loops. Using vectors also makes your code significantly efficient. 
 
-# ex-1 
+# [ex-1](/ex1)
   Linear regression model to predict housing price. 
  
-# ex-2
+# [ex-2](/ex2)
   Logistic regression and classifiers
   
-# ex-3 
+# [ex-3](/ex3) 
   Multi-class classification and Neural Networks
   
-# ex-4
+# [ex-4](/ex4)
   Neural Network Learning
 
-# ex-5
+# [ex-5](/ex5)
   Regularized Linear Regression and Bias/Variance (Learning Curves)
   
-# ex-6
+# [ex-6](/ex6)
   Support Vector Machines & Spam Classifier
