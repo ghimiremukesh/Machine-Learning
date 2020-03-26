@@ -26,7 +26,7 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
   Support Vector Machines & Spam Classifier
   
   [ex6_optional](/ex6/ext_optional.mlx) contains code for the optional part of the exercise. For this to work, you need to extract the emails from [SpamAssassin Public Corpus](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwir4Yzi3tfWAhXCRSYKHVy4AzEQFggxMAE&url=https%3A%2F%2Fspamassassin.apache.org%2Fold%2Fpubliccorpus%2F&usg=AOvVaw2WMiDsjzlOHVIdW-QbC__r) into 'spam' and 'non-spam' folders. Then for training and testing run the following:
-  
+```MATLAB 
   load('newSpamTrain.mat');
   C = 0.03;
   model = svmTrain(Xtrain, ytrain, C, @linearKernel);  
@@ -39,3 +39,4 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
 
   p = svmPredict(model, Xtest);
   fprintf('Test Accuracy: %f\n', mean(double(p == ytest)) * 100);
+```
