@@ -40,3 +40,5 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
   p = svmPredict(model, Xtest);
   fprintf('Test Accuracy: %f\n', mean(double(p == ytest)) * 100);
 ```
+# [ex-7](/ex7)
+  K-mean clustering and Principal Component Analysis
