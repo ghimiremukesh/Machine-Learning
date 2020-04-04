@@ -44,6 +44,6 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
   K-mean clustering and Principal Component Analysis
   
   ![Mukesh](/ex7/Mukesh.svg)
-  *A sample of PCA to compress my picture into 16 colors*
+  <p align="center">*A sample of PCA to compress my picture into 16 colors*</p>
   
   
