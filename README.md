@@ -42,8 +42,10 @@ I have tried to avoid loops as much as possible and vectorized almost every oper
 ```
 # [ex-7](/ex7)
   K-mean clustering and Principal Component Analysis
-  
+  <p align="center">A sample of PCA to compress my picture into 16 colors</p>
   ![Mukesh](/ex7/Mukesh.svg)
-  <p align="center">*A sample of PCA to compress my picture into 16 colors*</p>
+
+# [ex-8](/ex8)
+  Anomaly Dectection and Recommender System
   
   
